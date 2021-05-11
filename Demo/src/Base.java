@@ -4,6 +4,8 @@ public class Base {
 public static void main(String[] args) {
 Base b = new Base();
 Sub s = new Sub();
+
+
 System.out.print(Base.FOO);
 System.out.print(Sub.FOO);
 System.out.print(b.FOO); 
