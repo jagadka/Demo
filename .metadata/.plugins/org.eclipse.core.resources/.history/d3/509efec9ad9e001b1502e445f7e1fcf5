@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Demo2 {
+
+		
+		public static void main(String[] args) throws Exception {
+			Scanner s = new Scanner(System.in);
+	        String sentence = s.nextLine();
+	        System.out.println(findLongestEvenWord(sentence));
+		}
+		
+		public static String findLongestEvenWord(String sentence) {
+			//write your code here
+			
+			String[] array = sentence.split("\\s");
+			System.out.println(array);
+			return null;
+		}
+
+	
+}

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Solution{
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int z=0;z<t;z++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            
+            String output = "";
+            int outputInt = 0;
+            
+            for(int i = 0; i < n ; i ++){
+                
+                outputInt =  outputInt + ( a + (int)Math.pow(2,i) * b);
+                if(i < n-2){
+                output = output.concat(String.valueOf(outputInt)+ " ");                              
+                    
+                }else{
+                    output = output.concat(String.valueOf(outputInt)); 
+                }
+                
+            }
+            
+        }
+        in.close();
+        
+    }
+}

@@ -1,0 +1,24 @@
+
+public class Demo6 {
+
+	public static void main(String[] args) {
+		
+		String [][]  strArray= new String[3][3];
+		
+		strArray[0][1] = "1";
+		strArray[0][2] = "5";
+		strArray[0][3] = "2";
+		
+		strArray[1][1] = "2";
+		strArray[1][2] = "7";
+		strArray[1][3] = "4";
+		
+		strArray[2][1] = "3";
+		strArray[2][2] = "8";
+		strArray[2][3] = "6";
+		
+		System.out.println(strArray);
+
+	}
+
+}

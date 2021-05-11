@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class Solution {
+	public static void main(String[] argh) {
+		int t = 2;
+		int a = 5;
+		int b = 3;
+		int n = 5;
+
+		String output = "";
+		int outputInt = 0;
+
+		for (int i = 0; i < n; i++) {
+
+			if (i == 0) {
+				outputInt = (a + ((int) Math.pow(t, i) * b));
+			} else {
+				outputInt = outputInt + ((int) Math.pow(t, i) * b);
+			}
+			if (i < n - 1) {
+				output = output.concat(String.valueOf(outputInt) + " ");
+
+			} else {
+				output = output.concat(String.valueOf(outputInt));
+			}
+
+			
+
+		}
+		System.out.println(output);
+
+	}
+}
