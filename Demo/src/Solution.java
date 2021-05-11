@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 class Solution {
+	
+	
 	public static void main(String[] argh) {
 		String line = "1,5,7,4;3,7,2";
 		char[] inputArray= line.toCharArray();
